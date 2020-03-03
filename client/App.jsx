@@ -5,7 +5,7 @@ import axios from 'axios';
 import LandingPage from './components/LandingPage.jsx';
 import MainPage from './components/MainPage.jsx';
 import Dashboard from './components/Dashboard.jsx';
-
+import EventInfo from './components/EventInfo.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -62,7 +62,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        {this.handlePageRender('MainPage')}
+        {/* {this.handlePageRender('MainPage')} */}
+        <EventInfo />
       </>
     );
   }

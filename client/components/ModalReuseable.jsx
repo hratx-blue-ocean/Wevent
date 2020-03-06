@@ -9,7 +9,7 @@ const ModalReuseable = ({
       <Modal.Header closeButton onClick={handleClose}>
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
-      <Modal.Body dialogClassName="modal-body">{body}</Modal.Body>
+      <Modal.Body dialogclassname="modal-body">{body}</Modal.Body>
       <Modal.Footer />
     </Modal>
   </div>
